@@ -1,0 +1,358 @@
+.mainContainer{
+    height: 100vh;
+    background-color: #18181B;
+    
+}
+
+
+.navbarcontainer{
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 1.5rem;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    border: 3px solid #27282a;
+    height: 4rem;
+    background-color: #18181B;
+}
+
+.nameInput{
+    color: #bababe;
+    background-color: #37373E;
+    outline: none;
+    border: none;
+
+    padding: 0.5rem 2rem;
+    font-size: 1.2rem;
+    margin: 1rem;
+    
+}
+.rightContainer{
+    flex: 1;
+    display: flex;
+    align-items: center;
+
+}
+.middleContainer{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.leftContainer{
+    flex: 1;
+    display: flex;
+    justify-content: end;
+    position: relative;
+}
+
+.navButton{
+    padding: 0.5rem 1rem;
+    margin: 0 0.3rem;
+    
+}
+
+.navButton:hover{
+    border: 2px solid #7EA6FF;
+    border-radius: 10px;
+    color:#7EA6FF ;
+    box-sizing: border-box;
+}
+
+
+.closeButton{
+    background-color: #18181B;
+    border: none;
+    outline: none;
+    color: #F55050;
+    font-size: 2rem;
+}
+
+.shareButton {
+    background-color: #1A5FFF;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin: 0.5rem 1rem;
+    
+  }
+  .saveButton{
+
+    background-color: #4ADE80CC;
+    color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    border: none;
+    outline: none;
+    margin: 0.5rem 1rem;
+}
+  
+  .disabledButton {
+    background-color: grey;
+    color: white;
+  }
+
+.copyButton{
+    background-color: #18181B;
+    border: 3px solid #27282a;
+    color: white;
+    padding: 1rem 2rem;
+    position: absolute;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    right: 9rem;
+    top: 7rem;
+}
+
+/********************************* styles from flow.jsx ****************************/
+
+.flowContainer{
+    display: flex;
+    padding: 1rem;
+    background-color: #1F1F23;
+    justify-content: center;
+}
+
+
+.widgetContainer{
+    flex: 1;
+    background-color: #18181B;
+    border: 3px solid #27282a;
+    border-radius: 10px;
+    padding: 5rem 1rem;
+    padding-bottom: 9rem;
+    box-sizing: border-box;
+    
+    
+}
+
+  
+.bubbles {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.5rem;
+  }
+  
+  .widgetContainer button {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    padding: 0.5rem;
+    border: none;
+    background-color:#1F1F23;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid #27282a;
+    
+  }
+  
+  .widgetContainer button img {
+    width: 1.2rem;
+
+  }
+
+  .title{
+    font-size: 1.1rem;
+    margin: 5px;
+    font-weight: 400;
+  }
+  
+  .fieldsContainer{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-right: 15rem;
+    }
+
+
+.bubblesField{
+    position: relative;
+    background-color: #18181B;
+    border-radius: 10px;
+    border: 2px solid #27282a;
+    width: 100%;
+    padding: 1.2rem;
+    margin: 1rem;
+}
+
+.input{
+    color: white;
+    padding: 0.8rem;
+    width: 100%;
+    border: none;
+    font-size: 1.2rem;
+  /* Space below the input */
+    border-radius: 5px;
+    background-color: #1F1F23;
+    outline: none;
+    box-sizing: border-box;
+
+}
+.bubblesField h4{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    margin-top: 0;
+    font-weight: 400;
+}
+
+.bubblesField p{
+    color: #555555;
+}
+
+.deleteIconDiv{
+    background-color: #444444;
+    width: 1.7rem;
+    height: 1.7rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -1rem;
+    right: -1rem;
+}
+.deleteIconDiv img{
+    height: 1.5rem;
+}
+
+.startDiv{
+    background-color: #18181B;
+    padding: 1rem;
+    margin: 1.5rem;
+    display: flex;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+
+}
+
+.startDiv img{
+    height: 2rem;
+   
+}
+
+.startDiv h3{
+    margin: 0;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.errorMessage {
+    color: #FF4141;
+    margin: 0;
+    font-weight: lighter;
+    
+  }
+
+
+/************************************Theme.jsx*************************************/
+
+.container{
+    display: flex;
+    flex: 1 ;
+
+   
+    
+}
+.optionsContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+}
+
+.themeDiv{
+    width: 11rem;
+    height: fit-content;
+    border: 2px solid white;
+    position: relative;
+    border: 3px solid #27282a;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 1rem;
+    
+}
+.themeImage{
+    width: 100%;
+    margin: 0;
+    border-radius: 10px 10px 0 0;
+}
+.themeName{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+   
+}
+
+.heading{
+    font-size: 1.5rem;
+    margin: 0.5;
+}
+.profileImagediv{
+    width: fit-content;
+    margin-right: 1rem;
+}
+.text{
+    background-color: #F7F8FF;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    
+}
+
+.userText{
+    background-color: #0042DA;
+    color: white;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    align-self: center;
+   
+}
+
+.themes{
+    flex: 1;
+    background-color: white
+}
+.lightTheme{
+    background-color: white;
+}
+.darkTheme{
+    background-color: #171923;
+}
+.blueTheme{
+    background-color: #508C9B;
+}
+
+.userInputs{
+    margin-top: 3rem;
+}
+
+.displayTheme{
+    margin: 5rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.inputs{
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.selectedTheme {
+    border: 3px solid #7EA6FF;
+}

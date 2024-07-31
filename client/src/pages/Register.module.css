@@ -1,0 +1,153 @@
+.mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+  color: white;
+  font-family: "Outfit", sans-serif;
+  position: relative;
+  background-color: #18181B;
+}
+
+
+
+.containerFileds {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5rem;
+    width: 100%; 
+    
+  }
+  
+  .input{
+    color: #bababe;
+    background-color: #18181B;
+    outline: none;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+
+  .errorMessage {
+    color: #FF4141;
+    margin: 0;
+    font-weight: lighter;
+    
+  }
+
+  .successMessage {
+    color: #5cb85c;
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  .labelError {
+    color: #FF4141;
+  }
+  .label{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+  }
+
+  .signUpButton{
+    color: white;
+    border: none;
+    background-color: #1A5FFF;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .Backbutton{
+    background-color:#18181B ;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 1.5rem;
+  }
+
+  .triangle{
+    position: absolute;
+    left: 0;
+  }
+  .pinkEclips{
+    position: absolute;
+    right: 0;
+    top: 10rem;
+  }
+
+  .yellowEClips{
+    position: absolute;
+    bottom: 0;
+    right: 20rem;
+  }
+
+  .heading{
+    font-size: 2rem;
+    font-weight: 400;
+    margin-top: 0;
+  }
+
+  .settingsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    height: 100vh;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    position: relative;
+  }
+
+  .container{
+    width: 22rem;
+    box-sizing: border-box;
+    
+  }
+
+  .logoutButton{
+    width: fit-content;
+    font-size: 1.2rem;
+    font-family: "Open Sans", sans-serif;
+    padding: 0.7rem 1rem;
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 1rem;
+    position: relative;
+    justify-content: space-between;
+    color: #CF3636;
+    font-weight: bold;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+    margin: 3rem 1.5rem;
+  }
+
+  .inputImages{
+    width: 20px;
+    height: 20px;
+  }
+
+.inputSettings{
+    color: #bababe;
+    background-color: #18181B;
+    outline: none;
+    border: none;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  .inputDiv{
+    display: flex;
+    border: 1px solid #C4C4C4;
+    border-radius: 5px;
+    padding: 5px 10px;
+    justify-content: center;
+    align-items: center;
+  }

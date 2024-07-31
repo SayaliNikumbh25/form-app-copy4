@@ -1,0 +1,387 @@
+body{
+    font-family: "Outfit", sans-serif;
+    color: white;
+    background-color: #18181B;
+    margin: 0;
+
+}
+
+.container{
+    color: white;
+    background-color: #18181B;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7rem;
+    
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin: 1.5rem;
+
+}
+
+.logoImg{
+    height: 40px;
+    
+}
+
+.logoText{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 1rem;
+    margin: 0;
+}
+
+.headerButtons{
+    color: #7EA6FF;
+    border: 2px solid #7EA6FF;
+    background-color: #18181B;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 0.8rem;
+    margin-left: 1rem;
+}
+
+.headerButtons:hover {
+    background-color: #1A5FFF;
+    color: white;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container1Image{
+    flex: 1;
+    
+}
+
+.container1Info{
+    text-align: center;
+    flex: 2;
+}
+
+.container1Heading{
+    font-size: 4rem;
+    background-image: linear-gradient(45deg, #4B83FF, #B794F4);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+    
+}
+
+
+.container1Button{
+    color: white;
+    border: none;
+    background-color: #1A5FFF;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-left: 1rem;
+}
+
+.container2{
+    margin: 2rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.container2Image{
+    margin: 50px;
+    z-index: 1;
+    width: 70rem;
+}
+
+.blurredCircleOrange{
+    z-index: 0;
+    position: absolute;
+    left: 0;
+    padding: 0px 30px;
+}
+.blurredCircleBlue{
+    z-index: 0;
+    position: absolute;
+    right: 0;
+    padding: 0px 30px;
+}
+
+
+.container3{
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.boldHeading{
+    font-size: 3rem ;
+    
+}
+
+.paragraph{
+    font-size: 1.3rem;
+    font-family: "Open Sans", sans-serif;
+    color: #718096 ;
+    
+}
+
+.exampleDiv{
+    display: flex;
+}
+
+.examples{
+    width: 30rem;
+    margin: 1rem;
+    z-index: 0;
+}
+
+.sampleForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sampleTypebot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.sampleTypebotArrow{
+    position: absolute;
+    top: -2rem;
+    right: 0;
+    
+}
+
+.tryItOut{
+    position: absolute;
+    right: 5rem;
+    top: -4rem;
+    font-size: 2rem;
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.container4{
+    display: flex;
+    flex-direction: column;
+    margin: 5rem 15rem;
+}
+
+.rightContainer{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin: 2rem 0;
+}
+
+.image1{
+    width: 40rem;
+    margin: 2rem;
+}
+
+.rightContainerInfo{
+    margin: 2rem;
+}
+
+.heading{
+    font-size: 2rem;
+}
+
+
+.logoDiv{
+    background-color: #1A202C;
+    border: 3px solid #27282a;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5rem;
+}
+
+.divLogoImg{
+    width: 3rem;
+}
+
+.logoContainer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 3rem;
+    z-index: 0;
+    
+}
+.svgRight{
+    position: absolute;
+    z-index: 1;
+    right: 0;
+}
+.svgleft{
+    position: absolute;
+    z-index: 1;
+    left: 0;
+}
+
+.container5{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.container5Info{
+    margin: 0 10rem;
+}
+
+.container6{
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+    padding: 5rem;
+    padding-bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+.container6Image{
+    width: 35rem;
+    border: 3px solid #27282a;
+    margin: 5rem;
+}
+
+
+.container7{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5rem;
+}
+
+.container7Info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featureContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-color: #1A202C;
+    border: 3px solid #27282a;
+    width: 20rem;
+    padding: 1rem;
+    padding-top: 2rem;
+    margin: 2rem;
+}
+
+.featureLogo{
+    background-color: #0042DA;
+    width: 3rem;
+    height: 3rem;
+    align-content: center;
+    border-radius: 7px;
+    position: absolute;
+    top:-1.7rem;
+}
+.featureHeading{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.featurePara{
+    color: #718096 ;
+    font-size: 1rem;
+}
+
+.featureImagesContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.featureImagesDiv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+
+.featureImage{
+    width: 12rem;
+    margin: 2rem;
+}
+
+.container8{
+    display: flex;
+    align-items: center;
+
+    position: relative;
+}
+
+.container8Info{
+    margin: 15rem 25rem;
+    text-align: center;
+    flex: 2;
+}
+
+.triangleWidget{
+    flex: 1;
+    width: fit-content;
+    position: absolute;
+    top: -5rem;
+}
+.archWidget{
+    flex: 1;
+    width: fit-content;
+    position: absolute;
+    right: 0;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin:0 10rem;
+    font-size: 1.2rem;
+    font-weight: lighter;
+    padding-bottom: 5rem;
+
+}
+
+.FooterList{
+    list-style-type:none
+}
+a {
+    color:white;
+    text-decoration: none; 
+    border-bottom: 0.5px solid;
+  
+  }
+
+li{
+    padding: 0.5rem;
+}

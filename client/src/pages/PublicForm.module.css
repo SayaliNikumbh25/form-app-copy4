@@ -1,0 +1,188 @@
+.container{
+    background-color: white;
+    min-height: 100vh;
+    box-sizing: border-box;
+    padding: 5rem 20rem;
+    color: black;
+    
+}
+
+.container {
+    -ms-overflow-style: none;  
+    scrollbar-width: none;  
+}
+.container::-webkit-scrollbar { 
+    display: none;  
+}
+
+.lightTheme{
+    background-color: white;
+}
+.darkTheme{
+    background-color: #171923;
+}
+.blueTheme{
+    background-color: #508C9B;
+}
+
+.inputDiv{
+
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.inputes{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border: none;
+    outline: none;
+    margin: 0.5rem;
+    font-size: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 15rem;
+}
+.inputesRating{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.ratingButtons{
+    border: none;
+    outline: none;
+    background-color: #1A5FFF;
+    border-radius: 50%;
+    padding: 0.3rem;
+    height: 1.5rem;
+    width: 1.5rem;
+    color: white;
+}
+
+.inputLabel{
+    display: flex;
+    font-size: 1.2rem;
+    align-items: center;
+}
+.profileImagediv{
+    width: fit-content;
+    margin-right: 1rem;
+}
+
+.profileImage{
+    height: 2.5rem ;
+}
+.text{
+    background-color: #F7F8FF;
+    color: black;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    
+}
+.buttons{
+    background-color: #1A5FFF;
+    outline: none;
+    border: none;
+    margin: 1rem;
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0.7rem;
+    justify-content: center;
+}
+
+.disabledInput {
+    background-color: #d3d3d3;
+    color: #a9a9a9;
+    cursor: not-allowed;
+  }
+  
+.disabledButton {
+    background-color: #d3d3d3;
+    color: #a9a9a9;
+    cursor: not-allowed;
+}
+.selectedRating {
+    background-color: #FF8E21;
+    color: white;
+  }
+
+.inputButton{
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0.7rem;
+    font-size: 1.2rem;
+    background-color: #053EC4;
+    color: white;
+    margin: 1rem;
+}
+
+.disabledInputButton {
+    background-color: #FF8E21;
+}
+
+.bubblesDiv{
+    margin: 1rem;
+    margin-left: 4rem;
+}
+.bubbleImage{
+    height: 200px;
+    width: 300px;
+}
+
+.buttonImage{
+    height: 20px;
+}
+
+
+@media only screen and (max-width: 768px) {
+    .container {
+        padding: 2rem 1rem;
+       
+    }
+
+    .inputes {
+  
+        margin: 0.5rem 0;
+        margin: 1rem;
+        font-size: 1rem;
+        padding: 0.5rem;
+        border-radius: 5px;
+        width: 15rem;
+    }
+  
+    .bubblesDiv{
+        margin: 1rem;
+       
+    }
+    .bubbleImage{
+        height: 150px;
+        width: 250px;
+    }
+    .buttons {
+        margin: 0.5rem 0;
+        height: 100%;
+        width: auto;
+        box-sizing: border-box;
+        
+    }
+    .buttonImage{
+        height: 15px;
+        margin: 0;
+    }
+    .inputLabel {
+        align-items: flex-start;
+    }
+
+    .profileImagediv {
+        margin-bottom: 0.3rem;
+    }
+
+
+    
+
+   
+    
+}
