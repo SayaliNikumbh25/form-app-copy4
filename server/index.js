@@ -6,12 +6,19 @@ import formRoutes from './routes/forms.js'
 import folderRoutes from './routes/folder.js'
 import cors from 'cors'
 import verifyToken from './middlewares/verifyToken.js';
+import {dirname} from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = dirname(fileURLToPath(import.meta.url))
+console.log(__dirname)
 
 env.config();
 const app = express();
 
 app.use(cors());
 app.use(express.json());
+app.use(express.static(__dirname + '/public'))
+
 app.use('/api/auth', authRoutes);
 app.use('/api/forms', formRoutes);
 app.use('/api/folders',folderRoutes);
